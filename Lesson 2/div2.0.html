@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>div</title>
+  <style>
+    /*div{*/
+    /*    !*display: inline-block;*!*/
+    /*    !*float: left;*!*/
+    /*    margin: 0 auto;*/
+
+    /*}*/
+    *{
+      font-weight: 600;
+    }
+
+    .red{
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      /*margin: 20px;*/
+      transition: 2s;
+    }
+    .green{
+      width: 200px;
+      height: 200px;
+      background-color: green;
+      /*margin: 20px;*/
+      transition: 1s;
+    }
+    .yellow{
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+      /*margin: 20px;*/
+      transition: 1500ms;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .flex{
+      width: 100%;
+      height: 800px;
+      background-color: grey;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      /*flex-direction:column-reverse;*/
+    }
+    /*.align-self{*/
+    /*    align-self: flex-end;*/
+    /*}*/
+    .green:hover{
+      background-color: salmon;
+      border-radius: 50%;
+      transition: 3s;
+    }
+    .red:hover{
+      transform: rotate(45deg);
+      transition: 3s;
+    }
+    .yellow:hover{
+      transform: scale(1.5);
+      transition: 500ms;
+    }
+    .pink{
+      color:grey ;
+      opacity: 0;
+
+    }
+    .pink:hover{
+      color: coral;
+      transition: 2s;
+      opacity: 1;
+
+    }
+  </style>
+</head>
+<body>
+<div class="flex">
+  <div class="red"></div>
+  <div class="green align-self"></div>
+  <div class="yellow">
+    <span>lorem</span>
+  </div>
+
+</div>
+
+<p class="pink"><b>Lorem ipsum dolor sit amet, consectetur</b>.</p>
+
+</body>
+</html>

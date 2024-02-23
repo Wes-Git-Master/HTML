@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .grid{
+      display: grid;
+      height: 100vh;
+      grid-template-columns: 1fr 3fr 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 2vh;
+    }
+    div.grid>div{
+      background-color: darkslategrey;
+      border: 1px solid;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .grid>div:nth-child(5){
+      background-color: hotpink;
+    }
+  </style>
+</head>
+<body>
+<div class="grid">
+  <div><span> 1</span></div>
+  <div><span> 2</span></div>
+  <div><span> 3</span></div>
+  <div><span> 4</span></div>
+  <div><span> 5</span></div>
+  <div><span> 6</span></div>
+  <div><span> 7</span></div>
+  <div><span> 8</span></div>
+  <div><span> 9</span></div>
+</div>
+</body>
+</html>

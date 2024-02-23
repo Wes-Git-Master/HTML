@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+header{
+    background: #927D7D;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+main{
+    display: flex;
+}
+.News{
+    background: #817C7C;
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.News p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+.Content{
+    background: #A74848;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+.Spam{
+    background: #B7AEAE;
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Spam p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}
+footer{
+    background: #BDBDBD;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    color: #FFF;
+}

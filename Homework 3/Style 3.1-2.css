@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+header{
+    background: #8D8484;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}
+main{
+    display: flex;
+}
+.Content-1{
+    background: #776969;
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content-1 p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}
+.Content-2{
+    background: #643030;
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content-2 p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}
+.Content-3{
+    background: #441818;
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content-3 p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}
+.Spam-1{
+    background: #937575;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Spam-1 p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}
+.Spam-2{
+    background: #644C4C;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Spam-2 p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}
+footer{
+    background: #BDBDBD;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+}

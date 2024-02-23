@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+/************************   header   ************************/
+header {
+    display: flex;
+    height: 102px;
+}
+svg{
+    margin: 29px 0 31px 136px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 344px;
+}
+header div p{
+    padding: 0 45px 0 0;
+}
+/************************   main   ************************/
+.main{
+    display: flex;
+    flex-direction: column;
+}
+/*!************************   main === section-1   ************************!*/
+.section-1{
+    display: flex;
+}
+.section-1 p{
+    color:  #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    margin: 336px 0 0 136px;
+}
+.section-1 h1{
+    color: #333;
+    font-size: 64px;
+    margin: 0 0 0 136px;
+}
+.section-1 img{
+    width: 770px;
+    height: 829px;
+    padding: 3px 0 0 122px;
+}
+/*!************************   main === section-2   ************************!*/
+.section-2{
+    display: flex;
+}
+.section-2 .img-1{
+    margin: 180px 0 0 187px;
+}
+.section-2 .img-2{
+    margin: 180px 0 0 87px;
+}
+.section-2 .text-1{
+    margin: 180px 0 0 87px;
+}
+.section-2 .p-1{
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+}
+.section-2 .p-2{
+    font-size: 16px;
+    margin: 70px 0 0 0;
+    font-weight: 300;
+    line-height: 25px;
+}
+/*!************************   main === section-3   ************************!*/
+.section-3 p {
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    margin: 180px 0 0 135px;
+}
+.section-3 .text-2{
+    display: flex;
+    margin: 0 0 0 135px;
+}
+/*!******  box-1  ********************************!*/
+.section-3 .box-1{
+    display: flex;
+    align-items: center;
+}
+.section-3 .p-1{
+    color: #F2F2F2;
+    font-size: 200px;
+    font-weight: 900;
+    margin: 60px 0 0 0 ;
+}
+.section-3 .p-2{
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 60px 0 0 30px;
+}
+/*!******  box-2  ************************************!*/
+.section-3 .box-2{
+    display: flex;
+    align-items: center;
+}
+.section-3 .p-3{
+    color: #F2F2F2;
+    font-size: 200px;
+    font-weight: 900;
+    margin: 60px 0 0 187px;
+}
+.section-3 .p-4{
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 60px 0 0 30px;
+}
+/*!************************   main === section-4   ************************!*/
+.section-4{
+    margin-bottom: 102px;
+}
+.section-4 p {
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    margin: 180px 0 0 135px;
+}
+.section-4 .images{
+    margin: 60px 0 0 135px;
+    display: flex;
+}
+/*!************************   footer   ************************!*/
+footer{
+    display: flex;
+    background: #2C2C2C;
+    height: 329px;
+}
+svg{
+    margin: 58px 0 0 116px;
+}
+footer p{
+    margin: 0;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+
+
+

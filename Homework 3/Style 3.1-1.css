@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background: #D9D9D9;
+}
+
+header p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+}
+
+main {
+    display: flex;
+}
+
+.News-1 {
+    height: 60vh;
+    width: 20vw;
+    background: #817C7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.News-1 p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #000;
+    font-size: 45px;
+}
+
+.Content-box {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Content-1 {
+    height: 30vh;
+    background: #ABA8A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content-1 p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 45px;
+}
+
+.Content-2 {
+    height: 30vh;
+    background: #878484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content-2 p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 45px;
+}
+
+.Sponsor {
+    height: 60vh;
+    width: 20vw;
+    background: #B7AEAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sponsor p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 45px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background: #BDBDBD;
+}
+footer p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 45px;
+}
+
+
